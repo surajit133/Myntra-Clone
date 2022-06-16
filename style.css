@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+*{
+font-family: 'Roboto', sans-serif;
+padding: 0;
+margin: 0;
+}
+header{
+    position: sticky;
+    top: 0;
+    background: white;
+    height: 66px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+
+}
+.rightbox{
+    display: flex;
+    margin: 12px;
+}
+
+nav{
+    font-size: 13px;
+    padding: 15px;
+}
+.left img{
+    width: 32px;
+    height: 23px;
+}
+
+.container{
+    max-width: 100vw;
+}
+nav ul li{
+    list-style: none;
+    padding: 0 22px;
+}
+.homeimg{
+    width: 80vw;
+    margin: 12px 0;
+}
+
+.search{
+    width: 20vw;
+    height: 6vh;
+    border: 0.5px solid grey;
+    background: #f7f8fd;
+    border-radius: 5px;
+}
+.dod{
+    font-size: x-large;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding-left: 20px;
+    font-weight: 900;
+}
+.next{
+    width: 80vw;
+    margin: 0px 0;
+}
+}
+.my-2{
+    margin: 12px 0;
+    padding: 23px;
+    text-align: center;
+    box-shadow: #f7f8fd;
+}
+.Itemimg{
+    width: 106px;
+    padding: 4px;
+}
+.Itemimg2{
+    width: 155px;
+    padding: 1px;
+}
+.Itemimg3{
+    width: 180px;
+}
+.Itemimg4{
+    width: 155px;
+    padding: 1px;
+}
+footer{
+    padding: 23px;
+    text-align: center;
+    box-shadow: rgb(0 0 0 / 24%) 0px 3px 8px;
+}
+@media (max-width: 950px) {
+    header{
+        
+        height: 152px;
+    }
+    nav{
+        flex-direction: column;
+        align-items: center;
+    }
+    .right{
+        flex-direction: column;
+    }
+    .rightbox{
+        display: flex;
+        margin: 12px;
+    }
+}
